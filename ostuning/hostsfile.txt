@@ -1,0 +1,7 @@
+
+
+sudo sh -c "echo '172.31.40.80 master.rupeshorg.net master' >> /etc/hosts"
+sudo sh -c "echo '172.31.37.118 snn.rupeshorg.net snn' >> /etc/hosts"
+sudo sh -c "echo '172.31.43.76 slave1.rupeshorg.net slave1' >> /etc/hosts"
+sudo sh -c "echo '172.31.32.53 slave2.rupeshorg.net slave2' >> /etc/hosts"
+sudo sh -c "echo '172.31.34.195 slave3.rupeshorg.net slave3' >> /etc/hosts"
