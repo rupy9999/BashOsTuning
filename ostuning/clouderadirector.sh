@@ -2,7 +2,7 @@
 
 sudo yum -y update
 sudo yum -y install vim wget
-wget --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u181-b13/96a7b8442fe848ef90c96a2fad6ed6d1/jdk-8u181-linux-x64.rpm
+wget --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie" https://download.oracle.com/otn/java/jdk/8u221-b11/230deb18db3e4014bb8e3e8324f81b43/jdk-8u221-linux-x64.rpm
 sudo yum -y localinstall jdk-8u181-linux-x64.rpm
 java -version
 cd /etc/yum.repos.d/
